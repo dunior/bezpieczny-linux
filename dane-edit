@@ -1,0 +1,13 @@
+#!/bin/bash
+#uprawnienia:
+#chmod 0750 /dane/bin/dane-edit
+#chown root:somegroup /dane/bin/dane-edit  # grupa zaufanych edytorów
+#edykieta edytor-a
+#semanage fcontext -a -t dane_admin_exec_t "/dane/bin/dane-edit"
+#konfiguracja sudo
+# /etc/sudoers.d/dane
+#username ALL=(root) NOPASSWD: /dane/bin/dane-edit
+restorecon -v /dane/bin/dane-edit
+
+# edytor/menedżer zmian – przykład:
+exec /usr/bin/vim /dane
