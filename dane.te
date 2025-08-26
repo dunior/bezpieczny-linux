@@ -1,0 +1,29 @@
+########################################
+# Domena i exec dla administratora /dane
+########################################
+type dane_admin_t;
+type dane_admin_exec_t;
+typeattribute dane_admin_exec_t file_type;
+
+require {
+    type unconfined_t;  # lub staff_t – domena, z której wywołasz wrapper
+    class process { transition };
+    class file { read open getattr execute map entrypoint write append create unlink rename setattr };
+    class dir  { read open getattr search add_name remove_name write };
+}
+
+# Umożliw uruchomienie wrappera
+allow unconfined_t dane_admin_exec_t:file { read open getattr execute map };
+
+# Transition do nowej domeny po exec wrappera
+type_transition unconfined_t dane_admin_exec_t:process dane_admin_t;
+
+# Wrapper jako entrypoint
+allow dane_admin_t dane_admin_exec_t:file { entrypoint read open getattr execute map };
+
+# Prawo zapisu WYŁĄCZNIE dla domeny dane_admin_t
+allow dane_admin_t dane_t:file { read open getattr write append create unlink rename setattr };
+allow dane_admin_t dane_t:dir  { read open getattr search add_name remove_name write };
+
+# (opcjonalnie) loguj kluczowe dozwolone akcje
+auditallow dane_admin_t dane_t:file { write append create rename unlink };
