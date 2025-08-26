@@ -1,0 +1,106 @@
+<<<<<<<<Kursanci>>>>>>>>
+
+1. Maciej Malawski
+Rocky
+Public IP address: 52.236.126.248
+Private IP address: 10.5.0.101
+Dostęp przez ssh, rdp
+Login: kurs
+Hasło: 1Szkolenie.admin2
+Porty: 80, 443
+
+Ubuntu:
+Private IP address: 10.5.0.201
+Login: kurs
+Hasło: 3Szkolenie.admin2
+
+2.Piotr Kukuła
+Rocky
+Public IP address: 20.166.56.187
+Private IP address: 10.5.0.102
+Dostęp przez ssh, rdp
+Login: kurs
+Hasło: 1Szkolenie.admin2
+Porty: 80, 443
+
+Ubuntu:
+Private IP address: 10.5.0.202
+Login: kurs
+Hasło: 3Szkolenie.admin2
+
+3. Jarosław Urbaniak
+Rocky
+Public IP address: 128.251.8.209
+Private IP address: 10.5.0.103
+Dostęp przez ssh, rdp
+Login: kurs
+Hasło: 1Szkolenie.admin2
+Porty: 80, 443
+
+Ubuntu:
+Private IP address: 10.5.0.203
+Login: kurs
+Hasło: 3Szkolenie.admin2
+
+4. Paweł Władyka
+Rocky
+Public IP address: 20.238.112.177
+Private IP address: 10.5.0.104
+Dostęp przez ssh, rdp
+Login: kurs
+Hasło: 1Szkolenie.admin2
+Porty: 80, 443
+
+Ubuntu:
+Private IP address: 10.5.0.204
+Login: kurs
+Hasło: 3Szkolenie.admin2
+
+5. Paweł Półchłopek
+Rocky
+Public IP address: 134.149.40.66
+Private IP address: 10.5.0.105
+Dostęp przez ssh, rdp
+Login: kurs
+Hasło: 1Szkolenie.admin2
+Porty: 80, 443
+
+Ubuntu:
+Private IP address: 10.5.0.205
+Login: kurs
+Hasło: 3Szkolenie.admin2
+
+6.  Przemysław Wilkosz
+Rocky
+Public IP address: 4.245.193.235
+Private IP address: 10.5.0.106
+Dostęp przez ssh, rdp
+Login: kurs
+Hasło: 1Szkolenie.admin2
+Porty: 80, 443
+
+Ubuntu:
+Private IP address: 10.5.0.206
+Login: kurs
+Hasło: 3Szkolenie.admin2
+
+
+<<<<<<ZESTAW ZAPASOWY>>>>>>
+
+7.
+Rocky
+Public IP address: 20.234.34.133
+Private IP address: 10.5.0.107
+Login: trener
+Hasło: 3Szkolenie.admin2
+Dostęp przez ssh, rdp
+Login: kurs
+Hasło: 1Szkolenie.admin2
+Porty: 80, 443
+
+Ubuntu:
+Private IP address: 10.5.0.207
+Login: kurs
+Hasło: 3Szkolenie.admin2
+
+Maszyny włączą się o 8:30 i wyłączą o 17:15
